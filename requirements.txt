@@ -1,0 +1,25 @@
+# Backend: FastAPI + PostgreSQL + Pydantic + SQLModel
+fastapi
+uvicorn[standard]
+sqlmodel
+asyncpg
+python-dotenv
+
+# Email integration (Nylas)
+httpx  # for API requests (Nylas, currency, etc.)
+
+# PDF generation
+reportlab  # simple + free
+pdfkit     # optional: if you prefer HTML -> PDF
+Jinja2     # for HTML templates (if using pdfkit)
+wkhtmltopdf  # NOTE: not pip-installable, install via OS package manager
+
+# Currency conversion
+requests
+
+# Frontend: Reflex (Pynecone)
+reflex==0.3.1  # or latest stable version
+
+# Dev tools
+black
+isort
